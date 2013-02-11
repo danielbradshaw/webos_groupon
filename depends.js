@@ -1,0 +1,20 @@
+enyo.depends(
+  "source/AppMenu.js",
+  "source/Constants.js",
+  "source/DailyDealNotifier.js",
+  "source/DealDetail.js",
+  "source/DealDetailPrimary.js",
+  "source/DealsList.js",
+  "source/DiscussionPosts.js",
+  "source/DivisionList.js",
+  "source/Groupon.js",
+  "source/Location.js",
+  "source/SplashScreen.js",
+  "css/DealDetail.css",
+  "css/DealDetailPrimary.css",
+  "css/DealsList.css",
+  "css/DiscussionPosts.css",
+  "css/DivisionList.css",
+  "css/Groupon.css",
+  "css/SplashScreen.css"
+);

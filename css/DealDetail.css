@@ -1,0 +1,32 @@
+
+.dealDetailPrimary {
+	background: white;
+	border: 1px solid #76A045;
+	margin: 10px;
+	border-radius: 10px;
+}
+
+.radioGroup {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.tabContentScroller {
+	background: white;
+	margin: 0px 10px 10px 10px;
+	border: 1px solid #76A045;
+	font-size: 16px;
+}
+
+.enyo-radiobutton-dark{
+	overflow: hidden;
+}
+
+.discussionText {
+	color: #494949;
+	font-size: 20px;
+}
+
+.discussionCloseButton {
+	margin-top: 20px;
+}

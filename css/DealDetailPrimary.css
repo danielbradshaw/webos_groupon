@@ -1,0 +1,86 @@
+
+.dealDetailTitle {
+	margin-top: 5px;
+	margin-left: 10px;
+	font-size: 22px;
+}
+
+.dealDetailSubtitle {
+	margin-left: 10px;
+	color: darkGray;
+	font-size: 18px;
+}
+
+.dealPriceText {
+	margin: 15px 12px 0px 0px;
+	font-size: 30px;
+	color: #76A045;
+}
+
+.buyBox {
+	background: #CFEEF6;
+	border: 1px solid #64C8E2;
+	margin: 10px 0px 10px 10px;
+	height: 60px;
+	width: auto;
+	text-align: center;
+}	
+
+.buyBoxTitleText {
+	font-size: 14px;
+	margin: 5px 0px 10px 0px;
+}	
+
+.buyBoxContentText {
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 25px;
+}
+
+.timeLeftBox {
+	background-color: #DDEDCC;
+	border: 1px solid #98C267;
+	margin: 0px 0px 0px 10px;
+	height: 60px;
+	width: auto;
+	text-align: center;
+}
+
+.timeLeftTitleText {
+	font-size: 14px;
+	margin-top: 5px;
+}
+
+.timeLeftDateText {
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.amountSoldBox {
+	margin: 10px 0px 0px 10px;
+	height: 60px;
+	width: auto;
+	text-align: center;
+}
+
+.amountSoldSubText {
+	/*color: #76A045;*/
+	font-size: 14px;
+	margin-top: 5px;
+	margin-bottom: 25px;
+}
+
+.amountSoldText {
+	color: #76A045;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.buyButton {
+	margin: 0px 0px 10px 8px;
+}
+
+.dealDetailImage {
+	margin: 10px;
+}

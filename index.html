@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+<title>Groupon</title>
+<script
+	src="/opt/PalmSDK/0.1/share/refcode/framework/enyo/1.0/framework/enyo.js"
+	type="text/javascript"></script>
+</head>
+
+<body onload="init()">
+<script type="text/javascript">
+
+	function init() {
+		enyo.applicationRelaunchHandler = function (params) {
+			//application was running, forward params
+			handleLaunch(params);
+		};
+		
+		//normal launch, just pass wthe window params
+		handleLaunch(enyo.windowParams);
+	}
+	
+	function handleLaunch(params) {
+		if (!params.action) {
+			//there was no action param, launch normally
+	  		normalLaunch();
+		}
+		else {
+			//we found an action, currently that means we were launched by an alarm
+			var dailyDealNotifier = new Groupon.DailyDealNotifier();
+			dailyDealNotifier.getDailyDeal();
+		}
+	}
+	
+	function normalLaunch() {
+		//there was no action param, launch normally
+		var window = enyo.windows.activate(enyo.fetchAppRootPath() + "/index.html", "groupon", enyo.windowParams);
+		var splashScreen = new SplashScreen();
+  		splashScreen.renderInto(document.body);
+  		splashScreen.showSplashScreen();		
+	}
+	
+</script>
+</body>
+</html>

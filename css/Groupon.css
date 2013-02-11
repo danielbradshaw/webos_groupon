@@ -1,0 +1,17 @@
+/* GROUPON GRAY = #494949 */
+/* GROUPON GREEN = #76A045 */
+
+.header {
+	background-color: #76A045;
+}
+
+.subHeadCaption {
+	color: #DDDDDD;
+	text-align: center;
+	padding: 7px;
+}
+
+.toolbar {
+	background-color: #494949;
+	height: 10px; /* set this to anything to align heights */
+}

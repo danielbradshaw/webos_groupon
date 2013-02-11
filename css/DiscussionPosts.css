@@ -1,0 +1,30 @@
+
+.discussionPosts {
+	margin-top: 10px;
+	border: 1px solid #98C267;
+	background: white;
+}
+
+.discussionPostError {
+	color: darkGray;
+}	
+
+.postItem {
+	background: white;	
+}
+
+.postBody {
+	background: #DDEDCC;
+	border-radius: 10px;
+	padding: 10px;
+	margin-top: 5px;
+}
+
+.posterName {
+	color: darkGray;
+	vertical-align:text-top;
+}	
+
+.posterImage {
+	margin-right: 10px;
+}

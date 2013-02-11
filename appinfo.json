@@ -1,0 +1,10 @@
+{
+  "id": "com.dnsmobile.groupon",
+  "version": "1.0.2",
+  "vendor": "DNS Mobile",
+  "type": "web",
+  "main": "index.html",
+  "title": "Groupon",
+  "uiRevision": 2,
+  "noWindow" : true
+}
